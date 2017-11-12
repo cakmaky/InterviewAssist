@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5827CC561FAA49A300F0E291 /* InterviewAssistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5827CC551FAA49A300F0E291 /* InterviewAssistUITests.swift */; };
 		582F1EAA1FB1A24C00BD29A8 /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F1EA91FB1A24C00BD29A8 /* InputVC.swift */; };
 		582F1EAE1FB2DE7E00BD29A8 /* TechnologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F1EAD1FB2DE7E00BD29A8 /* TechnologyTests.swift */; };
 		582F1EB01FB2EC6200BD29A8 /* TechManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F1EAF1FB2EC6200BD29A8 /* TechManagerTests.swift */; };
@@ -47,7 +46,6 @@
 		5827CC451FAA498200F0E291 /* InterviewAssistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewAssistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5827CC491FAA498200F0E291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5827CC531FAA49A300F0E291 /* InterviewAssistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewAssistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5827CC551FAA49A300F0E291 /* InterviewAssistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewAssistUITests.swift; sourceTree = "<group>"; };
 		5827CC571FAA49A300F0E291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		582F1EA91FB1A24C00BD29A8 /* InputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVC.swift; sourceTree = "<group>"; };
 		582F1EAD1FB2DE7E00BD29A8 /* TechnologyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnologyTests.swift; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 		5827CC541FAA49A300F0E291 /* InterviewAssistUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5827CC551FAA49A300F0E291 /* InterviewAssistUITests.swift */,
 				5827CC571FAA49A300F0E291 /* Info.plist */,
 			);
 			path = InterviewAssistUITests;
@@ -342,7 +339,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5827CC561FAA49A300F0E291 /* InterviewAssistUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
