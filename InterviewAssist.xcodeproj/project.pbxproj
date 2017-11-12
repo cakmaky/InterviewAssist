@@ -14,6 +14,7 @@
 		582F1EB41FB5070800BD29A8 /* TechCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F1EB31FB5070800BD29A8 /* TechCellTests.swift */; };
 		582F1EB61FB5125300BD29A8 /* InputVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F1EB51FB5125300BD29A8 /* InputVCTests.swift */; };
 		582F1EB81FB51D1400BD29A8 /* DescVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F1EB71FB51D1400BD29A8 /* DescVCTests.swift */; };
+		582F1EBA1FB8BFD400BD29A8 /* DelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F1EB91FB8BFD300BD29A8 /* DelegateTests.swift */; };
 		584042BF1FA9052D001DDC86 /* DescVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584042BE1FA9052D001DDC86 /* DescVC.swift */; };
 		584042C31FA90B2B001DDC86 /* Technology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584042C21FA90B2B001DDC86 /* Technology.swift */; };
 		584A9A591FA7BBBA0053C252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584A9A581FA7BBBA0053C252 /* AppDelegate.swift */; };
@@ -54,6 +55,7 @@
 		582F1EB31FB5070800BD29A8 /* TechCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCellTests.swift; sourceTree = "<group>"; };
 		582F1EB51FB5125300BD29A8 /* InputVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVCTests.swift; sourceTree = "<group>"; };
 		582F1EB71FB51D1400BD29A8 /* DescVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescVCTests.swift; sourceTree = "<group>"; };
+		582F1EB91FB8BFD300BD29A8 /* DelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateTests.swift; sourceTree = "<group>"; };
 		584042BE1FA9052D001DDC86 /* DescVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescVC.swift; sourceTree = "<group>"; };
 		584042C21FA90B2B001DDC86 /* Technology.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technology.swift; sourceTree = "<group>"; };
 		584A9A551FA7BBBA0053C252 /* InterviewAssist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewAssist.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				582F1EB11FB4E17A00BD29A8 /* FirstVCTests.swift */,
+				582F1EB91FB8BFD300BD29A8 /* DelegateTests.swift */,
 				582F1EB31FB5070800BD29A8 /* TechCellTests.swift */,
 				582F1EB51FB5125300BD29A8 /* InputVCTests.swift */,
 				582F1EB71FB51D1400BD29A8 /* DescVCTests.swift */,
@@ -328,6 +331,7 @@
 			files = (
 				582F1EB01FB2EC6200BD29A8 /* TechManagerTests.swift in Sources */,
 				582F1EB61FB5125300BD29A8 /* InputVCTests.swift in Sources */,
+				582F1EBA1FB8BFD400BD29A8 /* DelegateTests.swift in Sources */,
 				582F1EB81FB51D1400BD29A8 /* DescVCTests.swift in Sources */,
 				582F1EB21FB4E17A00BD29A8 /* FirstVCTests.swift in Sources */,
 				582F1EB41FB5070800BD29A8 /* TechCellTests.swift in Sources */,

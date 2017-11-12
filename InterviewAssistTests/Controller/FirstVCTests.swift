@@ -105,8 +105,20 @@ class FirstVCTests: XCTestCase {
         let cell = mockTableView.cellForRow(at: IndexPath(row: 0, section: 0)) as! MockTechCell
         
         XCTAssertEqual(cell.catchedTechnology, technology1)
+        
+    }
+    func test_GetTechnology_AddsTechnology(){
+        let technology = Technology(name: "Python", description: "Desc of Python", numberOfQuestions: 18, isStudied: true)
+        sut.getTechnology(technology: technology)
+        let technologyCunt = sut.techManager.getCount()
+        let retrievedTechnology = sut.techManager.technology(at: 0)
+        
+        XCTAssertEqual(technologyCunt, 1)
+        XCTAssertEqual(retrievedTechnology, technology)
     }
 }
+
+
 
 
 extension FirstVCTests {

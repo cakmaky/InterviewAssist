@@ -42,7 +42,6 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="AddTechButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gQa-FD-mf7"/>
                                             <segue destination="HfU-cV-gnN" kind="show" identifier="goToInputVC" id="oAW-QG-f0b"/>
                                         </connections>
                                     </button>

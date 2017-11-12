@@ -29,10 +29,6 @@ class FirstVC: UIViewController, UITableViewDelegate, UITableViewDataSource, Del
         techManager.add(technology: technology)
     }
     
-    @IBAction func AddTechButtonTapped(_ sender: Any) {
-        //self.performSegue(withIdentifier: "goToInputVC", sender: nil)
-    }
-    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }

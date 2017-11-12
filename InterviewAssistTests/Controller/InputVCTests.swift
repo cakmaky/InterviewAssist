@@ -57,6 +57,23 @@ class InputVCTests: XCTestCase {
         
         XCTAssertNotNil(sut.cancelButton)
     }
+    
+    func test_CancelButtonIsConnected() {
+        XCTAssertTrue(sut.checkActionForButton(sut.cancelButton, actionName: "cancelButtonTapped", event:UIControlEvents.touchUpInside, target: sut))
+    }
+    
+    func test_ClearFields_ClearsAllFields(){
+        sut.nameField.text = "Python"
+        sut.numberOfQuestionsField.text = "12"
+        sut.descriptionField.text = "Description of Python"
+        sut.isStudiedSwitch.isOn = true
+        sut.clearFields()
+        
+        XCTAssertEqual(sut.nameField.text, "")
+        XCTAssertEqual(sut.numberOfQuestionsField.text, "")
+        XCTAssertEqual(sut.descriptionField.text, "")
+        XCTAssertFalse(sut.isStudiedSwitch.isOn)
+    }
 }
 
 

@@ -18,33 +18,33 @@ class Technology: Equatable {
         get {
             return _name
         }
-        set {
-            self._name = newValue
-        }
+//        set {
+//            self._name = newValue
+//        }
     }
     var description:String {
         get {
             return _description
         }
-        set {
-            self._description = newValue
-        }
+//        set {
+//            self._description = newValue
+//        }
     }
     var numberOfQuestions:Int {
         get {
             return _numberOfQuestions
         }
-        set {
-            self._numberOfQuestions = newValue
-        }
+//        set {
+//            self._numberOfQuestions = newValue
+//        }
     }
     var isStudied:Bool {
         get {
             return _isStudied
         }
-        set {
-            self._isStudied = newValue
-        }
+//        set {
+//            self._isStudied = newValue
+//        }
     }
     
     init(name:String, description:String, numberOfQuestions:Int, isStudied:Bool){

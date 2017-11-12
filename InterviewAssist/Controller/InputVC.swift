@@ -28,10 +28,36 @@ class InputVC: UIViewController {
     }
     
     @IBAction func cancelButtonTapped(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+        self.clearFields()
+    }
+    
+    func clearFields(){
+        self.nameField.text = ""
+        self.numberOfQuestionsField.text = ""
+        self.descriptionField.text = ""
+        self.isStudiedSwitch.isOn = false
+    }
+    
+    func checkActionForButton(_ button: UIButton?, actionName: String, event: UIControlEvents = UIControlEvents.touchUpInside, target: UIViewController) -> Bool {
+        
+        if let unwrappedButton = button, let actions = unwrappedButton.actions(forTarget: target, forControlEvent: event) {
+            
+            var testAction = actionName
+            if let trimmedActionName = actionName.components(separatedBy: ":").first {
+                testAction = trimmedActionName
+            }
+            
+            return (!actions.filter { $0.contains(testAction) }.isEmpty)
+        }
+        
+        return false
     }
     
     @IBAction func saveButtonTapped(_ sender: Any) {
+       self.AddTechnologyToTheList()
+    }
+    
+    func AddTechnologyToTheList(){
         let name = nameField.text
         let numberOfQuestionsString = numberOfQuestionsField.text
         let numberOfQuestionsInt = Int(numberOfQuestionsString ?? "0")
@@ -53,3 +79,4 @@ class InputVC: UIViewController {
         }
     }
 }
+

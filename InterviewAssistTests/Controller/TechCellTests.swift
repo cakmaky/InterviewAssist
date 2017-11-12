@@ -51,12 +51,15 @@ class TechCellTests: XCTestCase {
     
     func test_ConfigureCell_SetsValues(){
         let technology = Technology(name: "Python", description: "Desc of Python", numberOfQuestions: 18, isStudied: true)
-        
         cell.configureCell(tech: technology)
         
         XCTAssertEqual(cell.techName.text, "Python")
         XCTAssertEqual(cell.numberOfQuestions.text, "18")
         XCTAssertEqual(cell.studiedImage.image, UIImage(named:"icon_green"))
+        
+        let technology2 = Technology(name: "Python", description: "Desc of Python", numberOfQuestions: 18, isStudied: false)
+        cell.configureCell(tech: technology2)
+        XCTAssertEqual(cell.studiedImage.image, UIImage(named:"icon_red"))
     }
 }
 
