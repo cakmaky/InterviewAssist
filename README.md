@@ -1,0 +1,2 @@
+# InterviewAssist iOS App
+InterviewAssist iOS App is developed in Swift. The aim of developing this app is to practice about writing unit tests with XCTest Framework. The app consists of 3 controller, 1 model class, 1 manager class and table view. 46 test cases have been written with XCTest Framework to test Classes, Controllers, Delegate and Table view. Continuous integration is set up with XCode Server. Test covarage is 84% now.
